@@ -7,8 +7,8 @@ export const getToken = async () => {
       "https://test.api.amadeus.com/v1/security/oauth2/token",
       new URLSearchParams({
         grant_type: "client_credentials",
-        client_id: "Y9cFOqXFrxW3DhwRG7w5LKjo95jM4K6n", // Your API Key
-        client_secret: "74ZYcvC4U42wbhnv", // Your API Secret
+        client_id: "Y9cFOqXFrxW3DhwRG7w5LKjo95jM4K6n", // 
+        client_secret: "74ZYcvC4U42wbhnv", // 
       }),
       {
         headers: {
